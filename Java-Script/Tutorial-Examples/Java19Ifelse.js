@@ -1,4 +1,4 @@
-const expression = 'Apple';
+const expression = process.argv[2];
 switch (expression){
     case 'Oranges':
         console.log('I prefer Oranges');
